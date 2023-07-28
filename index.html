@@ -14,7 +14,7 @@
       crossorigin="anonymous"
     />
 
-    <title>ARMANI</title>
+    <title>GIORGIO ARMANI</title>
 
     <style>
       @font-face {
@@ -25,17 +25,26 @@
       }
 
       @font-face {
-        font-family: "gothamMedium";
-        src: url("./fonts/gothamMedium.otf") format("opentype");
+        font-family: "GothamBook";
+        src: url("./fonts/GothamBook_0.otf") format("opentype");
         /* Si la fuente es un archivo .otf, usa el siguiente formato en lugar del formato truetype:
         src: url('ruta/del/archivo/fuente.otf') format('opentype'); */
+      }
+
+  
+
+      @media (max-width: 375px) {
+        /* Cambiar la imagen a la más pequeña cuando el ancho de pantalla es 375px o menos */
+        .image-banner {
+          content: url("./public/mobile.png");
+        }
       }
 
       * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: "gothamMedium";
+        font-family: "GothamBook";
 
       }
 
@@ -85,7 +94,7 @@
         font-size: 14px;
         color: #000000;
         margin-bottom: 30px;
-        font-family: "didotHTF";
+        font-family: "GothamBook";
         justify-content: center;
         text-align: center;
 
@@ -665,7 +674,7 @@
               </div>
 
               <p class="container phrase-container mt-4">
-                ARMANI BEAUTY y otras empresas de confianza usarán tus datos
+                GIORGIO ARMANI y otras empresas de confianza usarán tus datos
                 personales para administrar tu consulta o para responder tus
                 preguntas, y para fines analíticos y de investigación de
                 mercado. Para más información sobre el uso que le damos a tus
@@ -673,7 +682,7 @@
               </p>
 
               <p class="container phrase-container-pequeno ">
-                ARMANI BEAUTY forma parte de L’Oréal Luxe.
+                GiORGIO ARMANI forma parte de L’Oréal Luxe.
               </p>
             </div>
 
